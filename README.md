@@ -30,7 +30,7 @@ this program includes four functions:
 
 ## Interact with end_users:
 1) get a value end_user:
-    input_value=iput("please enter a value")
+    input_value=iput("Please enter a value")
    interact with end_users:
 
 3) display a value to the user
@@ -43,7 +43,7 @@ this program includes four functions:
 ============================================================================
 
 ## Check the conditions: 
-In this program we have "if" "elif" to check the conditions.
+In this program, we have "if" and "elif" to check the conditions.
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
@@ -53,10 +53,10 @@ In this program we have "if" "elif" to check the conditions.
 
 ===========================================================================
 
-## Handel the exception 
-in python we use "try" and "except command to handel unexpected values.
+## Handel the exception
+In Python, we use the "try" and "except commands to handle unexpected values.
 
-the commands in the "try" block are performed by default and the command in the "except" block are perform in a case the program incounter the problem.
+The commands in the "try" block are performed by default, and the command in the "except" block is executed if the program encounters a problem.
 
         try:
             num1 = float(input("Enter first number: "))
